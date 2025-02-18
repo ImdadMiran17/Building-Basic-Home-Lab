@@ -54,15 +54,26 @@ We will use internal networking as it's not connected to internet and an interna
 
 In the network settings, select internal network and give a name to it. Let's say, imnetwork. Then click Ok. When a internal network is created, every virtual machine can use that network and can be a part of it. Configure the network settings of kali machine same way. Now we have to manually set the static ip address.
 
-To set the ip address of the windows machine, we first go to taskbar. Then look for the globe icon there. Right click on the globe icon and when the menu opens, select "Open Network Settings". From the settings page, select change adapter option. It will open network adapter list. Right click on the ethernet and select properties. Now, select IPv4 and click on properties again. New dialogue box is opened now where you should choose the manual option for IP address. Let's set the ip address to ```192.168.100.10``` and subnet mask ```/24``` which translates to ```255.255.255.0```.
+![](https://raw.githubusercontent.com/ImdadMiran17/Building-Basic-Home-Lab/refs/heads/main/Screenshot%20(342).png)
+
+To set the ip address of the windows machine, we first go to taskbar. Then look for the globe icon there. Right click on the globe icon and when the menu opens, select "Open Network Settings". From the settings page, select **Change Adapter** option. It will open network adapter list. Right click on the ethernet and select properties. Now, select IPv4 and click on properties again. New dialogue box is opened now where you should choose the manual option for IP address. Let's set the ip address to ```192.168.100.10``` and subnet mask ```/24``` which translates to ```255.255.255.0```.
+
+![](https://raw.githubusercontent.com/ImdadMiran17/Building-Basic-Home-Lab/refs/heads/main/Screenshot%20(1).png)
 
 To set the ip address of the Kali machine, again we first go to taskbar and click on ethernet icon located at the top right corner. Click on the icon and select "Edit Connections". It will open existing connections on the host which is only one right now. Double click on Wired Connection 1 or click on the gear icon. Then Click on IPv4 Settings. It's set to automatic(DHCP) now. Change it to manual. Click on Add button then. Let's set the ip address to ```192.168.100.11``` and subnet mask ```/24``` which translates to ```255.255.255.0```.
 
+![](https://raw.githubusercontent.com/ImdadMiran17/Building-Basic-Home-Lab/refs/heads/main/Screenshot_2025-02-16_22-55-06.png)
+
 We can test now that our ip addresses are properly configured. In windows, open cmd and run the command ```ipconfig```. In kali, open terminal and run the command ```ifconfig```. It's properly configured now. Phew!!
+
+![](https://raw.githubusercontent.com/ImdadMiran17/Building-Basic-Home-Lab/refs/heads/main/Screenshot%20(2).png)
+![](https://raw.githubusercontent.com/ImdadMiran17/Building-Basic-Home-Lab/refs/heads/main/Screenshot_2025-02-16_22-57-24.png)
 
 Let's check our connectivity between the virtual machines. If we run the ```ping``` command from kali against the windows machine, windows firewall will drop icmp packets. So we can run the ```ping``` command from the windows machine. That way, we can check the connectivity without the hassle. So let's run ```ping 192.168.100.11```.
 
-We can see that there is no packet loss. The machines are connected in the network internally. ```Happy Hacking!!```
+![](https://github.com/ImdadMiran17/Building-Basic-Home-Lab/blob/main/Screenshot%20(3).png)
+
+We can see that there is no packet loss. The machines are connected in the network now. ```Happy Hacking!!```
 
 
 
