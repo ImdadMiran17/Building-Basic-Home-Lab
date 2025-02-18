@@ -24,6 +24,8 @@ The last step is crucial if you're analyzing a malware in a system. If you want 
 - At least give 60GB for the hard disk space
 - To skip unattended installation, fill the checkmark below. You have to install manually if you do this.
 
+![Add iso file](https://raw.githubusercontent.com/ImdadMiran17/Building-Basic-Home-Lab/refs/heads/main/Screenshot%20(339).png)
+
 
 ### Installing Kali Linux
 
