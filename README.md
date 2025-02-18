@@ -25,6 +25,8 @@ The last step is crucial if you're analyzing a malware in a system. If you want 
 - To skip unattended installation, fill the checkmark below. You have to install manually if you do this.
 
 ![Add iso file](https://raw.githubusercontent.com/ImdadMiran17/Building-Basic-Home-Lab/refs/heads/main/Screenshot%20(339).png)
+![Set RAM Size](https://raw.githubusercontent.com/ImdadMiran17/Building-Basic-Home-Lab/refs/heads/main/Screenshot%20(340).png)
+![Set Hard disk size](https://raw.githubusercontent.com/ImdadMiran17/Building-Basic-Home-Lab/refs/heads/main/Screenshot%20(341).png)
 
 
 ### Installing Kali Linux
