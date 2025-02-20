@@ -54,7 +54,7 @@ Let's dive into the fun stuff now. Select windows virtual machine in virtualbox 
 
 We will use internal networking as it's not connected to internet and an internal network can be created among the hosts. We can also use Not Attached for malware analysis as it is totally isolated. That said, it is totally harmless for the actual host.
 
-In the network settings, select internal network and give a name to it. Let's say, imnetwork. Then click Ok. When a internal network is created, every virtual machine can use that network and can be a part of it. Configure the network settings of kali machine same way. Now we have to manually set the static ip address.
+In the network settings, select internal network and give a name to it. Let's say, ```imnetwork```. Then click Ok. When a internal network is created, every virtual machine can use that network and can be a part of it. Configure the network settings of kali machine same way. Now we have to manually set the static ip address.
 
 
 ![](https://raw.githubusercontent.com/ImdadMiran17/Building-Basic-Home-Lab/refs/heads/main/Screenshot%20(342).png)
